@@ -1,4 +1,5 @@
 enum Keyword {
+  ANDROID = "Android",
   ANIMATION = "Animation",
   ARTIFICIAL_INTELLIGENCE = "Artificial Intelligence",
   ARCHITECTURE = "Architecture",
@@ -18,6 +19,7 @@ enum Keyword {
   GRAPHQLJS = "GraphQL.js",
   HEADLESS_COMPONENTS = "Headless components",
   IMMER = "Immer",
+  KOTLIN = "Kotlin",
   LAYOUT = "Layout",
   LIBRARIES = "Libraries",
   LEGACY = "Legacy",
@@ -36,8 +38,10 @@ enum Keyword {
   REACT_VR = "React VR",
   REDUX = "Redux",
   REASON = "Reason",
+  RESCRIPT= "ReScript",
   RUST = "Rust",
   SSR = "SSR",
+  SSG = "Static Site Generators",
   SPEC = "Spec",
   REINFORCEMENT_LEARNING = "Reinforcement learning",
   SERVERLESS = "Serverless",
@@ -56,6 +60,8 @@ enum Keyword {
   VS_CODE = "VS Code",
   WEBPACK = "Webpack",
   WEB_ASSEMBLY = "Web Assembly",
+  WEB_COMPONENTS = "Web Components",
+  ACTOR_MODEL = "Actor Model",
 }
 
 export default Keyword;

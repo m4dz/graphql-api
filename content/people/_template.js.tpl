@@ -5,7 +5,7 @@ const person: Contact = {
   name: "",
   about: "",
   image: {
-    url: "people/TODO.jpg", // TODO: Place image at root images/ and update name
+    url: "people/TODO.jpg",
   },
   social: {
     homepage: "",
@@ -20,12 +20,12 @@ const person: Contact = {
   },
   location: {
     country: {
-      name: "", // TODO: Country name
-      code: "", // TODO: Two-letter country code
+      name: "",
+      code: "",
     },
-    city: "", // TODO: City name
+    city: "",
   },
-  keywords: [Keyword.REACT], // TODO: check keywords for more
+  keywords: [Keyword.REACT],
   type: [ContactType.SPEAKER],
 };
 

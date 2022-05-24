@@ -5,8 +5,9 @@ import * as allSponsors from "../sponsors";
 import schedules from "./schedules";
 
 const partners = [
+  allSponsors.a11Yclub,
   allSponsors.agentconf,
-  allSponsors.bangalore,
+  // allSponsors.bangalore,
   allSponsors.dna325,
   allSponsors.halfstack,
   allSponsors.jscamp,
@@ -16,6 +17,7 @@ const partners = [
   allSponsors.reactnewyork,
   allSponsors.reactnorway,
   allSponsors.survivejs,
+  allSponsors.reactbrussels,
   // allSponsors.stickermule,
   allSponsors.reactjsgirls,
   allSponsors.reactnativeeu,
@@ -23,6 +25,7 @@ const partners = [
   allSponsors.reactsummit,
   allSponsors.webexpo,
   // allSponsors.techEvents,
+  allSponsors.dynatrace,
 ];
 const goldSponsors = [
   allSponsors.gofore,
@@ -39,7 +42,7 @@ const bronzeSponsors = [
   allSponsors.relex,
   allSponsors.vincit,
   allSponsors.wunder,
-  allSponsors.cybercom,
+  allSponsors.knowit,
   allSponsors.netum,
   allSponsors.nitor,
 ];

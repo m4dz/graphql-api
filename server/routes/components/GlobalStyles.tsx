@@ -9,7 +9,7 @@ interface GlobalStylesProps {
 
 function GlobalStyles({ fonts }: GlobalStylesProps) {
   React.useEffect(() => {
-    forEach(fonts.variants, variant => {
+    forEach(fonts.variants, (variant) => {
       if (variant.href) {
         generateFontReference(variant.href);
       }
@@ -90,14 +90,12 @@ function generateFontSrc(
     return "";
   }
 
-  return `format("embedded-opentype),${formats
-    .map(generateFontUrl(fileName))
-    .join("\n")}`;
+  return formats.map(generateFontUrl(fileName)).join(",\n");
 }
 
 function generateFontUrl(fileName: string) {
   return (format: string): string =>
-    `url("${fileName}.${format}") format(${generateFormat(format)})`;
+    `url("${fileName}.${format}") format("${generateFormat(format)}")`;
 }
 
 function generateFormat(format: string): string {

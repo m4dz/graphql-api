@@ -6,6 +6,8 @@ import PresentationTemplate from "./PresentationTemplate";
 import ScheduleTemplate from "./ScheduleTemplate";
 import ThemeTemplate from "./ThemeTemplate";
 import TweetTemplate from "./TweetTemplate";
+import SessionTweetTemplate from "./SessionTweetTemplate";
+import WorkshopTweetTemplate from "./WorkshopTweetTemplate";
 
 export {
   BadgeTemplate,
@@ -16,4 +18,6 @@ export {
   PresentationTemplate,
   ScheduleTemplate,
   TweetTemplate,
+  SessionTweetTemplate,
+  WorkshopTweetTemplate,
 };

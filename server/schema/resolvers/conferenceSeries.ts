@@ -302,6 +302,7 @@ const conferenceSeries: {
       "react-finland-2019",
       "react-finland-2020",
       "react-finland-2021",
+      "react-finland-2022",
       "rf-2020-01",
     ],
     theme: {
@@ -329,7 +330,7 @@ const conferenceSeries: {
             weight: "normal",
             style: "normal",
             fileName: "/media/fonts/worksans-regular",
-            formats: ["woff2"],
+            formats: ["ttf"],
           },
         ],
       },

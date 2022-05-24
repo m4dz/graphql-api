@@ -10,8 +10,7 @@ const talk: Session = {
   keywords: [Keyword.REACT, Keyword.LIBRARIES],
   urls: {
     slides: "https://slides.react-finland.fi/2019/glenn-reyes.pdf",
-    web:
-      "https://speakerdeck.com/glennreyes/drawing-the-line-between-3rd-party-and-handcrafted-code",
+    web: "https://speakerdeck.com/glennreyes/drawing-the-line-between-3rd-party-and-handcrafted-code",
   },
 };
 
